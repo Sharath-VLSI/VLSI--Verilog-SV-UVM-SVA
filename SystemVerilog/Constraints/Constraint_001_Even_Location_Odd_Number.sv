@@ -1,3 +1,6 @@
+Problem Statement: Write a constraint to generate odd number in even location and even number in odd location
+
+
 class test_1;
   rand bit[7:0]a[];
   constraint c1{a.size==10;}
